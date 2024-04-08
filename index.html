@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BASESHIPS2.loader.js";
+      var loaderUrl = buildUrl + "/BASESHIPS.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BASESHIPS2.data",
-        frameworkUrl: buildUrl + "/BASESHIPS2.framework.js",
-        codeUrl: buildUrl + "/BASESHIPS2.wasm",
+        dataUrl: buildUrl + "/BASESHIPS.data",
+        frameworkUrl: buildUrl + "/BASESHIPS.framework.js",
+        codeUrl: buildUrl + "/BASESHIPS.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "HyperJump",
         productName: "HyperHeist",
@@ -84,7 +84,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-      canvas.style.background = "url('" + buildUrl + "/BASESHIPS2.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/BASESHIPS.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

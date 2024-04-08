@@ -1,9 +1,9 @@
 const cacheName = "HyperJump-HyperHeist-0.0.5";
 const contentToCache = [
-    "Build/BASESHIPS2.loader.js",
-    "Build/BASESHIPS2.framework.js",
-    "Build/BASESHIPS2.data",
-    "Build/BASESHIPS2.wasm",
+    "Build/BASESHIPS.loader.js",
+    "Build/BASESHIPS.framework.js",
+    "Build/BASESHIPS.data",
+    "Build/BASESHIPS.wasm",
     "TemplateData/style.css"
 
 ];
